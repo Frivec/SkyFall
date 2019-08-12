@@ -1,0 +1,112 @@
+items:
+  kitSelector:
+    name: "&aSélecteur de kit"
+    description: 
+      - "&b&oUtilisez un clique-droit"
+      - "&b&opour ouvrir le menu de sélection des kits."
+  voteMap:
+    name: "&6Voter pour une carte"
+    description:
+      - "&b&oVous pouvez voter pour une carte."
+      
+messages:
+  wait:
+    join: "&6%player% &aa rejoint la partie &7(&8%size%/12&7)"
+    quit: "&6%player% &ca quitté la partie &7(&8%size%/12&7)"
+    title: "&6SkyFall"
+    subtitle: "&cAttention à l'apocalypse !"
+    timerMessage: "&b[SkyFall] &aLa partie commence dans &6%timer% &asecondes !"
+    kits:
+      alreadyChoose: "&cVous avez déjà choisis ce kit."
+      chooseKit: "&aVous avez choisis le kit &6%kitname% &a!"
+      actionBarKit: "&bVous avez choisis le kit &6%kitname% &b!"
+      actionBarKitNull: "&bVous n'avez pas choisis de kit. Pensez-y !"
+      
+  game:
+    join: "&cLa partie a déjà commencé. Vous êtes à présent un spectateur."
+    quit: "&6%player% &best éliminé(e) de la partie. Il reste &c%size% &bjoueur(s) en jeu."
+    demoProtect: "&aPour avez été protégé en partie des dégats."
+    cannotUseTNT: "&cSeuls les démolisseurs peuvent utiliser les TNT !"
+    cannotUseSniper: "&cSeul une personne sachant utiliser un sniper peut contrôler cette arme."
+    playerDeath: "&6%player% &aest mort."
+    playerKilled: "&6%player% a été tué par &b%killer%&a."
+    playerDead: "&aVous êtes mort. Vous devenez un fantôme !"
+  
+  finish:
+    winMessage: "&5&l&ksss &b&lFélicitations &aà &6%player% &aqui remporte la partie ! &5&l&ksss"
+    noPlayers: "&cIl n'y a plus de joueurs en jeu. Si ce message s'affiche, un bug est sûrement apparu au cours de la partie. Merci de le signaler !"
+        
+kits:
+  archer:
+    name: "&6Kit Archer"
+    description: 
+      - "&3Un kit archer classique"
+      - "&b- Un arc puissance 1"
+      - "&b- 12 flèches"
+      - ""
+      - "&a&oSérieusement, tu t'attendais à quoi ?"
+  guerrier:
+    name: "&6Kit Guerrier"
+    description:
+      - "&3Un kit guerrier pour le combat rapproché"
+      - "&b- une épée en pierre tranchant 1"
+      - "&b- un plastron en mails"
+      - "&b- des jambières en fer"
+      - ""
+      - "&a&oFais attention aux archers !"
+  demolisseur:
+    name: "&6Kit Démolisseur"
+    description:
+      - "&3Approved by Michael Bay."
+      - "&b- 3 TNT instantannées"
+      - "&b- un bouclier anti-explosions"
+      - ""
+      - "&a&oEn plus de l'apocalypse, "
+      - "&a&onous voilà dans de beaux draps !"
+  enchanteur:
+    name: "&6Kit Enchanteur"
+    description:
+      - "&3Vous décryptez les écritures mythiques"
+      - "&3mieux que personne !"
+      - "&3On peut dire que vous avez" 
+      - "&3une bonne expérience dans le milieu."
+      - "&b- 16 bouteilles d'expérience"
+      - "&b- 8 lapis-lazuli"
+      - "&b- 3 livres"
+      - ""
+      - "&a&oL’indifférence, la négligence,"
+      - "&a&ofont parfois beaucoup plus de dégâts"
+      - "&a&oque l’hostilité déclarée."
+  pionnier:
+    name: "&6Kit Pionnier"
+    description:
+      - "&3Vous partiez pour la ruée vers l'or."
+      - "&3Vous vous retrouvez sur des îles volantes." 
+      - "&3Quel changement de destinée !"
+      - "&b- 1 pioche en fer"
+      - "&b- 16 pierres"
+      - "&b- 1 casque en cuir"
+      - ""
+      - "&a&oHé ho ! hé ho ! On repart au boulot !"
+      - "&5&oOui cette référence est moyenne..."
+  sniper:
+    name: "&6Kit Sniper"
+    description:
+      - "&3Un héritage du Team Fortress."
+      - "&3Il est vieux et donc très fragile."
+      - "&3Attention !"
+      - "&b- Un sniper"
+      - "&b- 3 munitions"
+      - ""
+      - "&a&oQue pourrais-je écrire ici ?"
+      - "&a&oJe ne sais pas.."
+  seguin:
+    name: "&6Kit M. Seguin"
+    description:
+      - "&3Lui, il est juste là pour rigoler."
+      - "&3Sinon, tu peux tondre les moutons"
+      - "&3pour avoir des blocs."
+      - "&b- 10 oeufs de mouton"
+      - "&b- 1 paire de ciseaux"
+      - ""
+      - "&a&oUne inutilité consternante."

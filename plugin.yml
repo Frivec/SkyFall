@@ -1,0 +1,7 @@
+name: SkyFall-Remake
+version: 1.0
+author: Frivec
+main: fr.frivec.SkyFall
+commands:
+  dev:
+    description: Dev command

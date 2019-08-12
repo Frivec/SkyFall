@@ -1,0 +1,11 @@
+maps:
+  - seasons
+  
+database:
+  enable: false
+  host: localhost
+  user: user
+  password: password
+  database: database
+  port: 3306
+  
